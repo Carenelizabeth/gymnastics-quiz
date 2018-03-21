@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Roboto', Sans-Serif;
+}
+
+* {
+ box-sizing: border-box;}
+
+.background{
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      rgba(108, 167, 212, 0.45), 
+      rgba(108, 167, 212, 0.45)
+    ),
+    url(http://carenkeyes.com/wp-content/uploads/2018/03/7BEN5325-Edit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: calc(100% - 50px);
+}
+
+header{
+  background-color: white;
+  border-top: solid 7px #B50A1D;
+  border-bottom: solid 2px #B50A1D;
+  height: 50px;
+  padding-left:20px;
+}
+
+h1{
+  font-size: 28px;
+  color: #193987;
+  font-family: 'Amaranth', serif;
+  font-weight: bold;
+}
+
+main{
+  position: relative;
+}
+
+.banner{
+  margin: 20px 0px;
+  background-color: #03133B;
+  height: 32px;
+}
+
+h2{
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.focus-area{
+  background-color: white;
+  padding: 20px;
+  min-height: 360px;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: -5px 5px 4px 4px #03133B;
+  position: relative;
+}
+
+h3{
+  color: #B50A1D;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Amaranth', serif;
+  line-height: 1.2;
+}
+
+.userButton{
+  background-color: #AC3040;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.js-visit-button{
+  left: 150px;
+}
+
+input[type="submit"]{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 2px;
+}
+
+.choice{
+  line-height: 1.6;
+}
+
+.score {
+  position: absolute;
+  max-width: 80px;
+  right: 20px;
+  bottom: 15px;
+}
+
+.score  img{
+  width: 100%;
+  height: 100%;
+}
+
+.score p{
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+}
+
+@media only screen and (min-width: 550px){
+
+.background{
+  top: 60px;
+  background-image:  
+    linear-gradient(
+      rgba(25, 57, 135, 0.6), 
+      rgba(25, 57, 135, 0.6)
+    ),
+    url(http://carenkeyes.com/wp-content/uploads/2018/03/7BEN5325-Edit.jpg);
+    background-repeat: no-repeat;
+  max-height: calc(100% - 60px);
+    
+}  
+header{
+  border-top: solid 10px #B50A1D;
+  height: 60px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+main{
+  background-color: rgba(108, 167, 212, 0.6);
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  position: relative;
+  min-height: 400px;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.banner{
+  height: 40px;
+}
+
+.score{
+  max-width: 100px;
+}
+h2{
+  font-size: 24px;
+  line-height: 40px;
+}
+
+}
+  
+@media only screen and (min-width: 1000px){
+main{
+  max-width: 50%;
+}  
+
+}
+
+
+
+
+  
+
