@@ -121,8 +121,8 @@ function generateQuestion(){
                 <label for="r3">${array[2]}</label></p>
                 <p><input type="radio" name="choice" required id="r4">
                 <label for="r4">${array[3]}</label></p>
-                <input type="submit" value="Submit" class="js-submit-answer userButton">
               </fieldset>
+              <input type="submit" value="Submit" class="js-submit-answer userButton">
           </form>`;
 }
 
